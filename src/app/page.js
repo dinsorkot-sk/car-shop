@@ -170,7 +170,7 @@ export default function Home() {
                 <a href='#'><img src='/images/SOne_index_arrowdown.png' alt="Arrow Down" /></a>
               </div>
             </div>
-            <div className='w-full h-full flex justify-between items-center'>
+            <div className='w-full h-full flex md:hidden justify-between items-center'>
               <div className=' rotate-90'>
                 <a href='#'><img src='/images/SOne_index_arrowdown.png' alt="Arrow Up" className='drop-shadow-lg'/></a>
               </div>
@@ -234,7 +234,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
 
           <div className="w-full flex flex-col md:flex-row gap-3">
             <div className='border border-[#f05a28] border-b-5 border-b-[#f05a28] flex flex-col justify-between'>
@@ -330,7 +329,6 @@ export default function Home() {
               </div>
               <img src='/images/SOne_index_call.png' className='pt-1.5' />
             </div>
-            {/* News grid */}
           </div>
         </section>
       </main>
