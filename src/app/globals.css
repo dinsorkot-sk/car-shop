@@ -1,4 +1,23 @@
 @import "tailwindcss";
+@font-face {
+  font-family: 'Supermarket';
+  src: url('/fonts/supermarket.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Supermarket', sans-serif;
+  background: #ffffff;
+  color: #171717;
+}
+
+.copyright {
+  font-family: Arial,
+  "Helvetica Neue",
+  Helvetica,
+  sans-serif;
+  }
 /* 
 :root {
   --background: #ffffff;
